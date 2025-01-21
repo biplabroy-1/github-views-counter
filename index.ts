@@ -8,7 +8,6 @@ import mongoSanitize from "express-mongo-sanitize";
 
 const app = express();
 
-// Define the interface for the ViewCount document
 interface IPLog {
 	ip: string;
 	timestamp: Date;
