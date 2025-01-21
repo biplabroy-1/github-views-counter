@@ -19,7 +19,6 @@ interface ViewCountDocument extends Document {
 	ipLogs: IPLog[];
 }
 
-// Define the view count schema
 const viewCountSchema = new Schema<ViewCountDocument>({
 	repo: { type: String, required: true },
 	views: { type: Number, required: true, default: 0 },
